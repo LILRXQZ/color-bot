@@ -1,11 +1,12 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-
-client.on('ready',  () => {
-  console.log('By:M7md');
+client.on('ready', () => {
+  client.user.setGame(` By Suhaib #4272 .`,'https://www.twitch.tv/v5bz');
+  console.log('---------------');
+  console.log('Desert Bot Is Online')
+  console.log('---------------')
 });
-
-var prefix = 'البريفكس (:';
+var prefix = '^ (:';
 
 client.on('message', message => {
     if(message.content === prefix + 'createcolors') {
