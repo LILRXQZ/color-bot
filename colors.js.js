@@ -2336,4 +2336,4 @@ client.on('message', message => {
 
 
 
-	client.login('توكن بوتك');
+	client.login('NTM1ODY5NTgwMDE5NDk5MDA5.DyOb5Q.BPj7qUsa0sz2c4YVbf7ak76HUic');
